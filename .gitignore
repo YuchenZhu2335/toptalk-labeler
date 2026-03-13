@@ -1,0 +1,24 @@
+# 数据包（太大，不上传 git）
+packages/*/
+!packages/.gitkeep
+
+# Label Studio 数据库和缓存
+*.sqlite3
+label_studio/
+my_labeling_projects/
+
+# 导出结果（含标注员信息，不上传）
+result_*.json
+result_*.zip
+
+# 合并后的导入文件（含 Gold Set 位置信息）
+*/_merged_import.json
+
+# Label Studio token
+.ls_token
+packages/.ls_token
+
+# Python
+__pycache__/
+*.pyc
+.venv/
