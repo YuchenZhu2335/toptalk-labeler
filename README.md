@@ -48,3 +48,7 @@ python labeler.py guide    # 打印标注操作指南
 - [标注员手册](docs/HANDBOOK.md) — 详细说明每个标签的含义和标注技巧
 - [标签速查卡](docs/CHEATSHEET.md) — 可以打印出来放桌上
 - [常见问题](docs/FAQ.md)
+
+## 标注成果样板
+
+[samples/](samples/) 目录存放管理员精标的样本，展示每个字段的 input → output 对应关系，可用于对照标注质量。
